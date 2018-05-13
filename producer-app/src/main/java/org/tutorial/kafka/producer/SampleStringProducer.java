@@ -6,7 +6,11 @@ import java.util.Properties;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-
+/**
+ * This produces a list of string messages to topic 'test'
+ * @author deeepak
+ *
+ */
 public class SampleStringProducer {
 	
 	public static final String TOPIC_NAME  = "test";
