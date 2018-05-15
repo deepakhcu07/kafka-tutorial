@@ -1,0 +1,23 @@
+#Ignore Mac files
+.DS_Store
+
+#Eclipse Files
+.project
+.classpath
+.settings
+.metadata/
+.target
+target/
+
+#Package File
+*.ear
+*.war
+
+#Backup Files
+*~
+*.bak
+*#
+
+../RemoteSystemsTempFiles/
+RemoteSystemsTempFiles/
+
